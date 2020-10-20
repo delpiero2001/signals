@@ -16,6 +16,7 @@ tarea2="multiplication";
 %% Sujeto 1
 [spr1, ASP_B1_mean, ASP_M1_mean] = Comparacion_Sujeto(1, data, banda, Fs, tarea1, tarea2);
 %% Sujeto 3
+%close all
 %[spr3, ASP_B3_mean, ASP_M3_mean] = Comparacion_Sujeto(3, data, banda, Fs, tarea1, tarea2);
 %% Sujeto4
 %[spr4, ASP_B4_mean, ASP_M4_mean] = Comparacion_Sujeto(4, data, banda, Fs, tarea1, tarea2);
