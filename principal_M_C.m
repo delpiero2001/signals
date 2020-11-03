@@ -1,13 +1,14 @@
+clc, clear, close all
 %% Condiciones del experimento
 % Para obtener las gráficas solo hay que asegurarse de tener el archivo
 % eegdata.mat en la carpeta y correr el archivo principal.m
 load('eegdata.mat')
 Fs=250;
-ts=0.001;
-%banda_beta=14:ts:30;
-%banda_alpha=8:ts:13;
-%banda_theta=4:ts:7.99;
-%banda_delta=0.1:ts:3.9;
+ts=0.01;
+banda_delta=0.1:ts:3.9;
+banda_theta=4:ts:7.99;
+banda_alpha=8:ts:13;
+banda_beta=14:ts:30;
 banda_gamma=30:ts:100;   
 banda=banda_gamma;
 %% Multiplication y Visual-counting

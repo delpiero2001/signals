@@ -57,12 +57,10 @@ function [] = hist_graph(ASP_T1, ASP_T2,canal,sujeto, tarea1, tarea2)
     a2.FaceAlpha=0.5; line2.Color=[0, 0, 0];
    
     if ASP_wilcoxon==1
-       title(sprintf("Wilcoxon: Sujeto %d: Electrodo %s",sujeto, electrodo(canal)))
-    else
-       title(sprintf("Sujeto %d: Electrodo %s",sujeto, electrodo(canal)))
+       
     end
     % Labels
-    
+    title(sprintf("Sujeto %d: Electrodo %s",sujeto, electrodo(canal)))
     xlabel("Absolute Spectral Power")
     ylabel("Frequency")
     t1=upper(char(tarea1)); t2=upper(char(tarea2));

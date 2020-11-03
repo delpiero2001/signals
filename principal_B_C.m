@@ -17,9 +17,9 @@ tarea2="counting";
 %% Sujeto 1
 [spr1, ASP_B1_mean, ASP_C1_mean] = Comparacion_Sujeto(1, data, banda, Fs, tarea1, tarea2);
 %% Sujeto 3
-[spr3, ASP_B3_mean, ASP_C3_mean] = Comparacion_Sujeto(3, data, banda, Fs, tarea1, tarea2);
+%[spr3, ASP_B3_mean, ASP_C3_mean] = Comparacion_Sujeto(3, data, banda, Fs, tarea1, tarea2);
 %% Sujeto4
-[spr4, ASP_B4_mean, ASP_C4_mean] = Comparacion_Sujeto(4, data, banda, Fs, tarea1, tarea2);
+%[spr4, ASP_B4_mean, ASP_C4_mean] = Comparacion_Sujeto(4, data, banda, Fs, tarea1, tarea2);
 %% Sujeto 5
 [spr5, ASP_B5_mean, ASP_C5_mean] = Comparacion_Sujeto(5, data, banda, Fs, tarea1, tarea2);
 % done
