@@ -17,8 +17,8 @@ tarea2="rotation";
 %% Sujeto 1
 [spr1, ASP_M1_mean, ASP_R1_mean] = Comparacion_Sujeto(1, data, banda, Fs, tarea1, tarea2);
 %% Sujeto 3
-[spr3, ASP_M3_mean, ASP_R3_mean] = Comparacion_Sujeto(3, data, banda, Fs, tarea1, tarea2);
+%[spr3, ASP_M3_mean, ASP_R3_mean] = Comparacion_Sujeto(3, data, banda, Fs, tarea1, tarea2);
 %% Sujeto4
-[spr4, ASP_M4_mean, ASP_R4_mean] = Comparacion_Sujeto(4, data, banda, Fs, tarea1, tarea2);
+%[spr4, ASP_M4_mean, ASP_R4_mean] = Comparacion_Sujeto(4, data, banda, Fs, tarea1, tarea2);
 %% Sujeto 5
-[spr5, ASP_M5_mean, ASP_R5_mean] = Comparacion_Sujeto(5, data, banda, Fs, tarea1, tarea2);
+%[spr5, ASP_M5_mean, ASP_R5_mean] = Comparacion_Sujeto(5, data, banda, Fs, tarea1, tarea2);
